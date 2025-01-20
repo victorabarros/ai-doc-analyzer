@@ -1,6 +1,6 @@
-# AI Document Analyzer
+# 🤖 AI Document Analyzer
 
-🤖 AI-Powered Document Analyzer: Revolutionizing Document-Reporting with Artificial Intelligence
+AI-Powered Document Analyzer: Revolutionizing Document-Reporting with Artificial Intelligence
 
 ## How to run
 
