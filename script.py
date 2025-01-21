@@ -1,4 +1,6 @@
+import argparse
 import os
+import sys
 
 from datetime import datetime
 
@@ -8,13 +10,14 @@ from app.services.open_ai import create_completion, upload_file
 RAW_DOCUMENTS_PATH = "./documents"
 DESTINATION_DIRECTORY = "output"
 
+if not (len(sys.argv) > 1):
+    raise ValueError("Please provide a question to be answered.")
 
-QUESTION = """
-    Analyze how each work deals with the theme of social isolation. What are the authors’ points of view on this subject, and what parts of the novel corroborate these claims?
-    Your output will be a 5 paragraph book report that states a clear thesis statement, makes clear arguments based on the content of each novel, and accurately cites sections of each novel, culminating in a concluding paragraph to summarize the arguments.
-    Write it in markdown format.
-"""
+parser = argparse.ArgumentParser()
+parser.add_argument("--question", help="Specify the question to be answered")
+args = parser.parse_args()
 
+QUESTION = args.question
 
 if __name__ == "__main__":
     all_items = os.listdir(RAW_DOCUMENTS_PATH)
