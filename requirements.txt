@@ -1,0 +1,4 @@
+bs4
+ebooklib
+openai
+pdfplumber
