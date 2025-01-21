@@ -52,9 +52,16 @@ python3 script.py --question "How is John Galt?"
 
 ## References
 
-- https://platform.openai.com/docs/libraries
 - https://cookbook.openai.com/
 - https://github.com/f/awesome-chatgpt-prompts?tab=readme-ov-file#act-as-book-summarizer
 - https://github.com/openai/openai-python
 - https://platform.openai.com/docs/guides/prompt-engineering
 - https://platform.openai.com/docs/guides/structured-outputs
+- https://platform.openai.com/docs/libraries
+
+<!--
+TODO
+
+- look this chinese opensourced gpt version https://ollama.com/library/deepseek-r1
+
+-->
