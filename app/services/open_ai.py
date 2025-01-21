@@ -44,7 +44,7 @@ def create_completion(prompt):
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "You are a literary analysis assistant."},
+                {"role": "system", "content": "You are a literary analysis assistant. Always ansert in markdown format"},
                 {"role": "user", "content": prompt}
             ]
         )

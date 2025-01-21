@@ -38,7 +38,7 @@ if __name__ == "__main__":
         context += f"- {file['name']} (File ID: {file['upload_id']})\n"
 
     prompt = f"""
-        Analyze the following documents based on the uploaded files, and than answer the question giving examples and in markdown format:
+        Analyze the following documents based on the uploaded files, and than answer the question giving examples:
 
         Documents:
         {context}

@@ -39,7 +39,9 @@ sequenceDiagram
 - Add your **OPEN_AI_API_KEY** to `.env` file
 
 ```sh
-make analyze-doc --question "How is John Galt?"
+make analyze-doc
+python3 script.py --question "How is John Galt?"
+# Report saved to ai_report_2025-01-21_16:46:01.887051
 ```
 
 ## Improvements
