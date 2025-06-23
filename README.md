@@ -38,6 +38,7 @@ sequenceDiagram
 - Add your docs to the `./documents` directory
 - Add your **OPEN_AI_API_KEY** to `.env` file
 
+<!-- TODO use [VHS](https://github.com/charmbracelet/vhs) to create a prettier cmd illustration [POC](https://github.com/victorabarros/Learning/blob/a88f015a934ce6a5a77eb0de4c2d6584d3fe4f10/vhs/readme.md#L1) -->
 ```sh
 make analyze-doc
 python3 script.py --question "How is John Galt?"
@@ -58,6 +59,15 @@ python3 script.py --question "How is John Galt?"
 - https://platform.openai.com/docs/guides/prompt-engineering
 - https://platform.openai.com/docs/guides/structured-outputs
 - https://platform.openai.com/docs/libraries
+
+---
+
+<p align="center">
+  <br/>
+  Made in Brazil
+  <br/>
+  <img src="https://github.com/victorabarros/ura-bot/blob/main/assets/BrazilFlag.png" height="30px"/>
+</p>
 
 <!--
 TODO
